@@ -1,0 +1,18 @@
+<manifest ...>
+    <application ...>
+        <activity android:name=".MainActivity" ... />
+
+        <service
+            android:name=".FlashKeyboardService"
+            android:label="Flash Neon Keyboard"
+            android:permission="android.permission.BIND_INPUT_METHOD"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
+        </service>
+    </application>
+</manifest>
