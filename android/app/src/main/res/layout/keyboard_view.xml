@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.inputmethodservice.KeyboardView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboard_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/keyboard_bg"
+    android:keyBackground="@drawable/neon_key_bg"
+    android:keyTextColor="@color/neon_pink"
+    android:padding="5dp"
+    android:labelTextSize="20sp" />
